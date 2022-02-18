@@ -1,13 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f4f8;
+  font-family: "Poppins", sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-  h1 {
-    font-size: 21px;
-    font-weight: 200;
-  }
-
-  .main {
-      display: flex;
-      justify-content: space-between;
-  }
